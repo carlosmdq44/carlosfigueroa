@@ -1,0 +1,41 @@
+@import "../../global.scss";
+
+.practice {
+    background-color: white;
+    display: flex;
+}
+
+.practice_words {
+    text-decoration: underline;
+    margin-left: 0px; // Ajusta este valor según tus preferencias
+}
+
+.lineContainer {
+    display: flex;
+    align-items: center; // Alinea verticalmente la línea y las imágenes
+}
+
+.verticalLine {
+    width: 2px; // Ancho de la línea vertical
+    height: 100px; // Altura de la línea vertical
+    background-color: black; // Color de la línea vertical
+    margin: 10px 0; // Ajusta el margen según sea necesario
+}
+
+.imgContainerEducation {
+    display: flex;
+    flex-direction: column; // Cambia la dirección a columna
+    align-items: center;
+    margin-top: 20px; // Ajusta según tus preferencias
+
+    img {
+        width: 30%; // Ajusta este valor según tus preferencias
+        height: 30%; // Ajusta este valor según tus preferencias
+        margin-bottom: 30px; // Espacio entre imágenes, ajusta según tus preferencias
+
+        @include mobile {
+            width: 150px; // Ajusta estos valores para dispositivos móviles
+            height: 150px;
+        }
+    }
+}

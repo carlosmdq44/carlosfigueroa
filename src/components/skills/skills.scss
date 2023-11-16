@@ -1,0 +1,61 @@
+  @import "../../global.scss";
+
+  .skills {
+    background-color: white;
+    display: flex;
+
+    .skillsGrid {
+      display: flex; // Cambia a flex para alinear los logos en una sola línea
+      flex-direction: column;  // Cambia a columna para que las categorías aparezcan una debajo de la otra
+      gap: 20px;
+      overflow-x: auto; // Agrega desplazamiento horizontal si hay muchos logos
+      margin-top: 70px; // Agrega margen en la parte superior para bajar los logos
+
+    }
+
+    .category {
+      text-align: center;
+      text-decoration: underline;
+      margin-top: 10px; // Agrega margen en la parte superior para bajar los logos
+
+
+      h3 {
+        margin-bottom: 10px; // Agrega espacio entre el título de la categoría y los logos
+      }
+
+      img {
+        height: 75px;
+        width: 75px;
+        margin-left: 25px;
+        margin-bottom: 10px; // Agrega espacio entre el título de la categoría y los logos
+      }
+    }
+
+    h2 {
+      margin-bottom: 20px; // Agrega espacio entre el título de la categoría y los logos
+    }
+
+    .skillsGrid img {
+      height: 75px;
+      width: 75px;
+    }
+
+    @media screen and (max-width: 640px) {
+      .skillsGrid {
+        flex-wrap: wrap; // Permitir que los logos se envuelvan en una nueva línea
+        justify-content: center; // Centrar los logos en la nueva línea
+      }
+    }
+
+    .skills {
+      background-color: whitesmoke;
+      display: flex;
+      flex-direction: column;
+      margin-left: 20px;
+      margin-right: 20px;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }

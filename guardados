@@ -1,0 +1,16 @@
+                <div className="lineContainer">
+                    <img src="https://www.hackthebox.com/storage/avatars/6c735b462ef58f59d3561966d31f7e48.png" alt="Cross Site Scripting"/>
+                    <h4 className="practice_words">RedCross</h4>
+                    <div>
+                        <a href="https://app.hackthebox.com/machines/162" target="_blank" rel="noopener noreferrer"><FaLink /></a>
+                    </div>
+                    <FaClipboardList />
+                    <div className="verticalLine"></div>
+                    <img src="https://www.hackthebox.com/storage/avatars/3e2a599fda2f510f3a5f2146fae928ee.png" alt="Cross Site Scripting"/>
+                    <h4>Schooled</h4>
+                    <div>
+                        <a href="https://app.hackthebox.com/machines/335" target="_blank" rel="noopener noreferrer"><FaLink /></a>
+                    </div>
+                    <FaClipboardList />
+                </div>
+                

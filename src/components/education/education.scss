@@ -1,0 +1,24 @@
+@import "../../global.scss";
+
+.about {
+  background-color: white;
+  display: flex;
+}
+
+.imgContainerEducation {
+  display: flex;
+  flex-direction: column; // Cambia la dirección a columna
+  align-items: center;
+  margin-top: 20px; // Ajusta según tus preferencias
+
+  img {
+    width: 50%; // Ajusta este valor según tus preferencias
+    height: 50%; // Ajusta este valor según tus preferencias
+    margin-bottom: 30px; // Espacio entre imágenes, ajusta según tus preferencias
+
+    @include mobile {
+      width: 150px; // Ajusta estos valores para dispositivos móviles
+      height: 150px;
+    }
+  }
+}
